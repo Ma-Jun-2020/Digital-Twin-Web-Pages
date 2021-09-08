@@ -1,0 +1,10 @@
+{
+    "less.compile": {
+        "compress": false,//是否压缩
+        "sourceMap": false,//是否生成map文件，有了这个可以在调试台看到less行数
+        "out": true, // 是否输出css文件，false为不输出
+        "outExt": ".css", // 输出文件的后缀,小程序可以写'wxss'
+    },
+    "cssrem.rootFontSize": 80,
+    "liveServer.settings.port": 5501
+}
